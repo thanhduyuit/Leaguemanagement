@@ -1,2 +1,0 @@
-# Leaguemanagement
-UIT's project
