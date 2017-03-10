@@ -1,0 +1,61 @@
+#main {
+	padding: 20px;
+}
+
+body {
+	font-family: Arial;
+}
+
+
+table {
+	width: 100%;
+}
+
+tr, td {
+	margin: 5px;
+	padding: 5px;
+	align: center
+}
+
+.table {
+	margin: 5px;
+	padding: 5px;
+	width: 100%;
+}
+
+.table-striped {
+	border-radius: 10px;
+}
+
+.table-striped tr {
+	margin: 5px;
+	padding: 5px
+}
+
+.table-bordered tbody tr td, .table-bordered tbody tr th,
+	.table-bordered thead tr th, .table-bordered thead tr td,
+	.table-bordered tfoot tr th, .table-bordered tfoot tr td {
+	border: none;
+}
+
+button {
+	margin: 2px;
+	background-color: transparent;
+	background-repeat: no-repeat;
+	border: none;
+	cursor: pointer;
+	overflow: hidden;
+	outline: none;
+}
+
+.notify {
+	display: none;
+	text-align: left;	
+	font-size: 13px;
+}
+
+#loadingmessage {
+	display: none;
+	text-align: center;
+	font-size: 12px;
+}

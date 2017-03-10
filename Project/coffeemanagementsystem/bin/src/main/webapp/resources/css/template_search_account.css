@@ -1,0 +1,138 @@
+.container-fluid .container{
+    width: 100%;
+    height: 100%;
+}
+.container-fluid .searchcontainer {
+    width: 50%;
+    border: solid 1px gray;
+    height: 40px;
+    border: solid 1px #31b0d5;
+    padding: 0px;
+    margin: 10px auto;
+    position: relative;
+}
+
+.container-fluid .container-right .container .searchcontainer .btnsearchnav {
+    height: 100%;
+    width: 10%;
+    text-align: center;
+    color: #ffffff;
+    background-color: #31b0d5;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    font-size: 28px;
+}
+
+.container-fluid .container-right .container .searchcontainer .inputsearch {
+    width: 90%;
+    height: 38px;
+    line-height: 35px;
+    border: none;
+    padding-left: 10px;
+    padding-right: 18%;
+    font-size: 14px;
+}
+
+.container-fluid .container-right .container .searchcontainer .inputbtnsearch {
+    width: 15%;
+    height: 100%;
+    background-color: #31b0d5;
+    border: none;
+    color: #ffffff;
+    line-height: 40px;
+    text-align: center;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.container-fluid .container-right .container .searchcontainer .inputbtnsearch:HOVER {
+    cursor: pointer;
+}
+
+.container-fluid .container-right .container .searchcontainer .inputbtnsearch i {
+    font-size: 21px;
+    margin-right: 5px;
+}
+
+.container-fluid .container-right .container .searchcontainer .navsearch {
+    width: 50%;
+    position: absolute;
+    top: 40px;
+    background-color: #ffffff;
+    z-index: 1000;
+}
+
+.container-fluid .container-right .container .searchcontainer .navsearch ul {
+    padding: 0px;
+    margin: 0px;
+}
+
+.container-fluid .container-right .container .searchcontainer .navsearch ul li {
+    list-style-type: none;
+    line-height: 40px;
+    border-bottom: dotted 1px #aaaaaa;
+    padding-left: 5px;
+}
+.container-fluid .container-right .container .searchcontainer .navsearch ul li:last-child{
+    border-bottom: none;
+}
+.container-fluid .container-right .container .searchcontainer .navsearch ul li:hover {
+    background-color: #31b0d5;
+    color: #ffffff;
+}
+.container-fluid .container-right .container .titlecustomerlist {
+    width: 100%;
+    height: 40px;
+    border-bottom: solid 3px #31b0d5;
+    border-left: solid 20px #31b0d5;
+    line-height: 40px;
+    padding-left: 5px;
+}
+.container-fluid .container-right .container .titlecustomerlist h2{
+    font-size: 24px;
+    line-height: 40px;
+}
+.container-fluid .container-right .container .searchheader{
+    width: 100%;
+    height: 50px;
+    padding-right: 10%;
+}
+.container-fluid .container-right .container .searchheader .btnaddaccount{
+    height: 40px;
+    line-height: 40px;
+    border: none;
+    background:none;
+    margin-top: 5px;
+    color: blue;
+}
+.container-fluid .container-right .container .searchheader .btnaddaccount:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.container-fluid .container-right .container .searchheader .btnaddaccount:after{
+    content: "|";
+    margin-left: 5px;
+}
+.container-fluid .container-right .container .tablecustomerlist{
+    height: 500px;
+    width: 100%;
+    max-height: 750px;
+}
+.container-fluid .container-right .container .tablecustomerlist #tableaccount tbody tr td:last-child{
+    color: #cccccc;
+    text-align: center;
+    font-size: 21px;
+    font-weight: bold;      
+}
+.container-fluid .container-right .container .tablecustomerlist #tableaccount tbody tr td:last-child i{
+    margin: 5px;
+}
+.container-fluid .container-right .container .tablecustomerlist #tableaccount tbody tr td:last-child i:hover{
+    color: #222222;
+}
+.container-fluid .container-right .container .searchfooter .btnaddaccount{
+    margin-top: 20px;
+    height: 40px;
+}

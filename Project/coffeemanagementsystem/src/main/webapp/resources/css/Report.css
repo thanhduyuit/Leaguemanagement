@@ -1,0 +1,57 @@
+body{
+	font-size: 13px;
+	Font-family: Arial;
+	
+}
+.clear{
+	clear: both;
+}
+.container{
+	margin-top: 20px;
+}
+.container input {
+	margin-bottom: 5px;
+}
+.container #start
+{
+	float: left;
+	margin-right: 20px;
+}
+.container #end
+{
+	float: left;
+}
+.container{
+	margin: auto;
+}
+.container h3
+{
+	color: blue;
+} 
+.container .checkbox .check{
+	
+}
+.container .checkbox .check1{
+
+}
+.container #submit
+{
+	float: left;
+	margin-left: 20px;
+}
+.container .btn btn-primary{
+	padding: 5px;
+}
+#result{
+	margin-top: 20px;
+}
+#result .img{
+	float: left;
+}
+#text
+{float: left;
+width: 50%;
+	
+}
+ h2{
+}

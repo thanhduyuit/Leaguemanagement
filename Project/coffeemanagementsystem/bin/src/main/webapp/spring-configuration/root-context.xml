@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<bean id="phoneSender"
+		class="com.fsoft.coffeesystem.utilites.SendMessageToNumberPhone">
+		<constructor-arg name="twilioAccountSid"
+			value="AC6316dc043a9c8aa8763527ef83999ffe" />
+		<constructor-arg name="twilioAuthToken"
+			value="e84f9d71200bb111eaf4576d2e58f361" />
+		<constructor-arg name="twilioNumber" value="+17858314381" />
+	</bean>
+
+
+</beans>

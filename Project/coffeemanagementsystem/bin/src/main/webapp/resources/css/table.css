@@ -1,0 +1,27 @@
+@CHARSET "ISO-8859-1";
+
+body {
+	font-family: Arial;
+}
+
+.tableSearch {
+	margin-top: 30px;
+	padding-top: 30px;
+	padding-left: 15px;
+	width: 100%;
+	text-align: left;
+}
+
+select.comboLoaiHang {
+	height: 40px;
+	border-radius: 4px;
+	margin-bottom: 10px;
+	font-size: 15px;
+	background: #fff;
+	border: 1px solid #ebebeb;
+	width: 96%;
+}
+
+.span {
+	color: red;
+}

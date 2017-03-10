@@ -1,0 +1,12 @@
+[
+      "Bia",
+      "Nước ngọt",
+      "Mỳ xào",
+      "Đồ ăn tạm",
+      "Đồ ăn có nước",
+      "Cà phê",
+      "Thức ăn nhanh",
+      "Nước ép",
+      "Sinh tố",
+      "Nat"
+]

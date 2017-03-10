@@ -1,0 +1,132 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.an{
+    visibility: hidden;
+}
+.hien{
+    visibility: visible;
+}
+.floatleft{
+    float: left;
+}
+.floatright{
+    float: right;
+}
+.clear0{
+    clear: none;
+    height: 0px;
+}
+.clear10{
+    clear: none;
+    height:10px;
+}  
+.clear20{
+    clear: none;
+    height:20px;
+} 
+.active{
+
+}
+.container-fluid{
+    width:  100vw;
+    height: 100vh;
+    background-color: #fffffe;
+    padding: 0px;
+    margin: 0px;
+}
+.container-fluid header{
+    height: 10%;
+    width: 100%;
+    line-height: 10%;
+    background-color: #222222;
+    border-bottom: solid 2px #ccc;
+}
+.container-fluid header .accountinfo{
+    height: 100%;
+    line-height: 100%;
+    margin-right: 5%;
+    color: #fffffe;
+    font-size: 21px;
+    font-weight: bold; 
+
+}
+.container-fluid header .accountinfo ul{
+  
+    list-style-type: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.container-fluid header .accountinfo ul li
+{   
+    line-height: 100%;
+}
+.container-fluid header .accountinfo ul li a{
+    text-decoration: none;
+    color: #fffffe;
+
+}
+.container-fluid header .accountinfo ul li ul li a{
+    color: #222222;
+
+}
+.container-fluid header .accountinfo ul li ul li:hover{
+    background-color: #31b0d5;
+    color: #fffffe;
+
+}
+
+.container-fluid section{
+    width: 100%;
+    height: 90%;
+}
+
+.container-fluid .container-left{
+    width: 20%;
+    height: 100%;
+    background-color: #222222;
+}
+.container-fluid .container-left .navdmin{
+    font-size: 21px;
+    color: #fffffe;
+
+}
+.container-fluid .container-left .navdmin li{
+    width: 100%;
+    height: 50px;
+    line-height:50px;
+    border-bottom: solid 1px #31b0d5;
+
+}
+.container-fluid .container-left .navdmin li a{
+    height: 50px;
+    line-height: 50px;
+    padding: 0px;
+    color: #fffffe;
+}
+.container-fluid .container-left .navdmin li:hover{
+    background-color: #31b0d5;
+    color: #333333;
+}
+.container-fluid .container-left .navdmin a{
+    text-decoration: none;
+    color: #fffff1;
+    font-weight: bold;
+}
+.container-fluid .container-left .navdmin li a i.fa{
+    margin: 10px;
+}
+.container-fluid .container-left .navdmin ul li.active a{
+    background-color: #31b0d5;
+}
+.container-fluid .container-left .navdmin ul li a:hover{
+    background-color: #ccc;
+    color: #333333;
+}
+
+.container-fluid .container-right{
+    width: 80%;
+    height: 100%;
+}
+

@@ -1,0 +1,65 @@
+.value {
+	float: right;
+	margin-right: 20%;
+}
+
+.priceProduct {
+	float: right;
+	margin-right: 20%;
+}
+
+.nameProduct {
+	width: 40%;
+	margin-left: 10%;
+}
+
+.detail-Product-content {
+	margin-top: 10px;
+	border-top: 1px solid;
+}
+
+.outText {
+	float: right;
+	margin-right: 10%;
+}
+
+.modal-content {
+	overflow: none;
+	padding: 10px 30px 45px 30px;
+	position: relative;
+}
+
+.outText {
+	width: 50px;
+	margin: 0;
+	right: -15px;
+	bottom: -30px;
+	position: absolute;
+}
+
+#image {
+	display: inline-block;
+	width: 100%
+}
+
+#searchOrder {
+	border: none;
+}
+
+.searchOrder {
+	height: 20%;
+	padding: 15px;
+	margin: 20px 20px 40px 20px;
+}
+
+#submitSearch {
+	float: right;
+	margin-right: 94px;
+}
+
+#sel1{
+	width: 51%;	
+	margin-left: 14px;
+}
+
+
